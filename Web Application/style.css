@@ -1,0 +1,88 @@
+/* Generell tekst */
+body {
+    font-family: Calibri, sans-serif;
+    color: #212529;
+}
+
+/* Navbar */
+nav {
+    font-family: Consolas, monospace;
+    background-color: #0E8EA8;
+}
+
+.nav-link, .navbar-brand {
+    color: #fff !important;
+}
+
+/* Navbar dropdown items */
+.dropdown-menu {
+    background-color: #83D1E1;
+}
+
+.dropdown-item {
+    color: #212529;
+    font-family: Consolas, monospace;
+}
+
+/* Tabeller */
+table {
+    border: 1px solid #212529;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+/* Tabellhoder */
+thead th {
+    background-color: #0E8EA8;
+    color: #fff;
+    font-family: Consolas, monospace;
+}
+
+/* Tabellceller */
+tbody td {
+    background-color: #83D1E1 !important;
+    color: #212529 !important;
+    font-family: Calibri, sans-serif;
+}
+
+/* Positive knapper (In, Add) */
+#btnIn, #btnAdd {
+    background-color: #198754;
+    color: #fff;
+    font-family: Consolas, monospace;
+    border: none;
+    padding: 6px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Negative knapper (Out, Clear) */
+#btnOut, #btnClear {
+    background-color: #dc3545;
+    color: #fff;
+    font-family: Consolas, monospace;
+    border: none;
+    padding: 6px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Hover animasjoner */
+#btnIn:hover, #btnAdd:hover {
+    background-color: #157347;
+    transform: scale(1.05);
+    transition: 0.2s;
+}
+
+#btnOut:hover, #btnClear:hover {
+    background-color: #bb2d3b;
+    transform: scale(1.05);
+    transition: 0.2s;
+}
+
+/* Klokke */
+#clock {
+    font-family: Consolas, monospace;
+    font-size: 1.2rem;
+    margin-top: 20px;
+}
